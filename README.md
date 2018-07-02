@@ -1,7 +1,7 @@
 # deta-task-3
 Calendar application in php with meeting scheduling 
 # Execute in google chrome only as datetime local is not supported in other browsers
-Done with PHP Version 7.2.5 and code for accessing and manipulating database has been written in mysql procedural format.
+Done with PHP Version 7.2.5 and code for accessing and manipulating database has been written in mysql procedural format.Sufficient care has been taken to prevent SQL injection.
 ## General Instructions To run this task
 1) Install XAMPP (X- any OS A-Apache M-MySql P-PHP P-Pearl) on your laptop/pc (works on all operating systems).After installation start the apache and mysql componemts in the xampp control pannel.
 
