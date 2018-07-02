@@ -9,7 +9,7 @@ Done with PHP Version 7.2.5 and code for accessing and manipulating database has
 
 3) Create database hari_db in http://localhost/phpmyadmin/index.php by clicking on the new icon on the left of the page.
 
-4) Within the database create the following tables in XAMPP PHPMYADMIN SQL control pannel within the database.
+4) Within the database create the following tables in XAMPP PHPMYADMIN SQL control pannel within the database by pasting the following sql commands in the sql command prompt.
 
   CREATE TABLE user ( id INT(9) AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255) , email VARCHAR(255), telephone bigint(10), password       VARCHAR(255) );
 
@@ -18,4 +18,4 @@ description VARCHAR(255),endtime datetime, // # don't provide    any default len
  );
 
 
-5) Place the above link in your browser http://localhost/demo/del_login.php to run this application
+5) Place the above link in your browser http://localhost/demo/login.php to run this application
