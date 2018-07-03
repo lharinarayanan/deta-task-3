@@ -14,10 +14,10 @@ Done with PHP Version 7.2.5 and code for accessing and manipulating database has
   CREATE TABLE user ( id INT(9) AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255) , email VARCHAR(255), telephone bigint(10), password       VARCHAR(255),image VARCHAR(255) );
 
 CREATE TABLE appointments ( id INT(9) AUTO_INCREMENT PRIMARY KEY, username VARCHAR(255), title VARCHAR(255), starttime datetime, (// # don't provide    any default length)
-description VARCHAR(255),endtime datetime, (// # don't provide    any default length)
- );
+description VARCHAR(255),endtime datetime, (// # don't provide    any default length));
+
 5) Place the above link in your browser http://localhost/demo/login.php to run this web application.
 ## Features implemented in this Task
 1) Users are provided with a login and signup pages where the user enters his details and creates his account.
 2) Subsequently the user is redirected to the login page where he enters his details and goes to his home page. A captcha has been included for security purpose and care has been taken to prevent mysql injection.
-3) When the user logs in he is given the option to edit his personal details entered during signup process,allowed to create and schedule appointments with other users and view his calendar with his appointments under that day which he clicks.(by default the appointments for current day is shown).
+3) When the user logs in he is given the option to edit his personal details entered during signup process,allowed to create and schedule appointments with other users and view his calendar with his appointments under the day which he clicks.(by default the appointments for current day is shown).
